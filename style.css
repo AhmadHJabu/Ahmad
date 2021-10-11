@@ -1,7 +1,7 @@
 /* *********************************************
 [Master Stylesheet]
 
-Template Name: Mona - Model Agency HTML5 Template
+Template Name: jabu - Model Agency HTML5 Template
 Template Author: Colorlib
 Template Author URL: http://colorlib.com
 Version: 1.0.0
@@ -381,7 +381,7 @@ ul {
     background-color: #000000; }
 
 /* :: 6.0 Buttons CSS */
-.mona-btn {
+.jabu-btn {
   position: relative;
   z-index: 1;
   min-width: 180px;
@@ -400,16 +400,16 @@ ul {
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
   border: 2px solid #ffffff; }
-  .mona-btn:focus, .mona-btn:hover {
+  .jabu-btn:focus, .jabu-btn:hover {
     box-shadow: none;
     background-color: #000000;
     color: #ffffff;
     border-color: #000000; }
-  .mona-btn.btn-2 {
+  .jabu-btn.btn-2 {
     border-color: #ed489d;
     color: #ed489d;
     background-color: #ffffff; }
-    .mona-btn.btn-2:focus, .mona-btn.btn-2:hover {
+    .jabu-btn.btn-2:focus, .jabu-btn.btn-2:hover {
       color: #ffffff;
       background-color: #ed489d; }
 
@@ -814,10 +814,10 @@ ul {
       color: #232323; }
 
 /* :: 9.0 Gallery CSS */
-.mona-projects-menu {
+.jabu-projects-menu {
   position: relative;
   z-index: 1; }
-  .mona-projects-menu .btn {
+  .jabu-projects-menu .btn {
     padding: 0;
     background-color: transparent;
     font-size: 20px;
@@ -826,9 +826,9 @@ ul {
     color: #a6a6a6;
     margin: 0 30px;
     font-weight: 600; }
-    .mona-projects-menu .btn:focus {
+    .jabu-projects-menu .btn:focus {
       box-shadow: none; }
-    .mona-projects-menu .btn.active {
+    .jabu-projects-menu .btn.active {
       color: #232323; }
 
 .single-project-area {
@@ -1026,7 +1026,7 @@ ul {
           padding: 0 10px;
           font-size: 14px; } }
 
-.mona-tab-content {
+.jabu-tab-content {
   position: relative;
   z-index: 1;
   padding: 0 3%; }
@@ -1158,20 +1158,20 @@ ul {
   .single-model-item:focus .model-info h3, .single-model-item:hover .model-info h3 {
     color: #ed489d; }
 
-.mona-actor-slide,
-.mona-all-model-slide,
-.mona-models-slide,
-.mona-singer-slide {
+.jabu-actor-slide,
+.jabu-all-model-slide,
+.jabu-models-slide,
+.jabu-singer-slide {
   position: relative;
   z-index: 1; }
-  .mona-actor-slide .owl-next,
-  .mona-actor-slide .owl-prev,
-  .mona-all-model-slide .owl-next,
-  .mona-all-model-slide .owl-prev,
-  .mona-models-slide .owl-next,
-  .mona-models-slide .owl-prev,
-  .mona-singer-slide .owl-next,
-  .mona-singer-slide .owl-prev {
+  .jabu-actor-slide .owl-next,
+  .jabu-actor-slide .owl-prev,
+  .jabu-all-model-slide .owl-next,
+  .jabu-all-model-slide .owl-prev,
+  .jabu-models-slide .owl-next,
+  .jabu-models-slide .owl-prev,
+  .jabu-singer-slide .owl-next,
+  .jabu-singer-slide .owl-prev {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -1187,35 +1187,35 @@ ul {
     top: 50%;
     margin-top: -25px;
     left: -25px; }
-    .mona-actor-slide .owl-next.owl-next,
-    .mona-actor-slide .owl-prev.owl-next,
-    .mona-all-model-slide .owl-next.owl-next,
-    .mona-all-model-slide .owl-prev.owl-next,
-    .mona-models-slide .owl-next.owl-next,
-    .mona-models-slide .owl-prev.owl-next,
-    .mona-singer-slide .owl-next.owl-next,
-    .mona-singer-slide .owl-prev.owl-next {
+    .jabu-actor-slide .owl-next.owl-next,
+    .jabu-actor-slide .owl-prev.owl-next,
+    .jabu-all-model-slide .owl-next.owl-next,
+    .jabu-all-model-slide .owl-prev.owl-next,
+    .jabu-models-slide .owl-next.owl-next,
+    .jabu-models-slide .owl-prev.owl-next,
+    .jabu-singer-slide .owl-next.owl-next,
+    .jabu-singer-slide .owl-prev.owl-next {
       left: auto;
       right: -25px; }
-    .mona-actor-slide .owl-next:focus, .mona-actor-slide .owl-next:hover,
-    .mona-actor-slide .owl-prev:focus,
-    .mona-actor-slide .owl-prev:hover,
-    .mona-all-model-slide .owl-next:focus,
-    .mona-all-model-slide .owl-next:hover,
-    .mona-all-model-slide .owl-prev:focus,
-    .mona-all-model-slide .owl-prev:hover,
-    .mona-models-slide .owl-next:focus,
-    .mona-models-slide .owl-next:hover,
-    .mona-models-slide .owl-prev:focus,
-    .mona-models-slide .owl-prev:hover,
-    .mona-singer-slide .owl-next:focus,
-    .mona-singer-slide .owl-next:hover,
-    .mona-singer-slide .owl-prev:focus,
-    .mona-singer-slide .owl-prev:hover {
+    .jabu-actor-slide .owl-next:focus, .jabu-actor-slide .owl-next:hover,
+    .jabu-actor-slide .owl-prev:focus,
+    .jabu-actor-slide .owl-prev:hover,
+    .jabu-all-model-slide .owl-next:focus,
+    .jabu-all-model-slide .owl-next:hover,
+    .jabu-all-model-slide .owl-prev:focus,
+    .jabu-all-model-slide .owl-prev:hover,
+    .jabu-models-slide .owl-next:focus,
+    .jabu-models-slide .owl-next:hover,
+    .jabu-models-slide .owl-prev:focus,
+    .jabu-models-slide .owl-prev:hover,
+    .jabu-singer-slide .owl-next:focus,
+    .jabu-singer-slide .owl-next:hover,
+    .jabu-singer-slide .owl-prev:focus,
+    .jabu-singer-slide .owl-prev:hover {
       background-color: #ed489d; }
 
 @media only screen and (min-width: 1200px) {
-  .mona-model-area.model-page .mona-tab-content .col-xl {
+  .jabu-model-area.model-page .jabu-tab-content .col-xl {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 20%;
     flex: 0 0 20%;
@@ -1359,10 +1359,10 @@ ul {
   .single-benefits-area .benefits-content p {
     margin-bottom: 0; }
 
-.mona-video-area {
+.jabu-video-area {
   position: relative;
   z-index: 1; }
-  .mona-video-area .video-play-btn {
+  .jabu-video-area .video-play-btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1376,7 +1376,7 @@ ul {
     background-color: #ed489d;
     color: #ffffff;
     line-height: 50px; }
-    .mona-video-area .video-play-btn:focus, .mona-video-area .video-play-btn:hover {
+    .jabu-video-area .video-play-btn:focus, .jabu-video-area .video-play-btn:hover {
       box-shadow: none;
       background-color: #232323; }
 
@@ -1555,10 +1555,10 @@ ul {
     font-size: 16px;
     color: #232323; }
 
-.mona-pagination {
+.jabu-pagination {
   position: relative;
   z-index: 1; }
-  .mona-pagination .pagination .page-item .page-link {
+  .jabu-pagination .pagination .page-item .page-link {
     width: 40px;
     height: 40px;
     border-radius: 3px;
@@ -1569,11 +1569,11 @@ ul {
     background-color: transparent;
     color: #666666;
     font-size: 16px; }
-    .mona-pagination .pagination .page-item .page-link:focus, .mona-pagination .pagination .page-item .page-link:hover {
+    .jabu-pagination .pagination .page-item .page-link:focus, .jabu-pagination .pagination .page-item .page-link:hover {
       background-color: #ed489d;
       border-color: #ed489d;
       color: #ffffff; }
-  .mona-pagination .pagination .page-item.active .page-link {
+  .jabu-pagination .pagination .page-item.active .page-link {
     background-color: #ed489d;
     border-color: #ed489d;
     color: #ffffff; }
@@ -1652,31 +1652,31 @@ ul {
     .comment_area .children .single_comment_area:last-of-type {
       margin-bottom: 0; }
 
-.mona-blockquote {
+.jabu-blockquote {
   position: relative;
   z-index: 1;
   margin-bottom: 30px;
   margin-top: 30px; }
-  .mona-blockquote .icon {
+  .jabu-blockquote .icon {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 70px;
     flex: 0 0 70px;
     max-width: 70px;
     width: 70px; }
     @media only screen and (max-width: 767px) {
-      .mona-blockquote .icon {
+      .jabu-blockquote .icon {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 50px;
         flex: 0 0 50px;
         max-width: 50px;
         width: 50px; } }
-    .mona-blockquote .icon i {
+    .jabu-blockquote .icon i {
       font-size: 60px;
       color: #ed489d; }
       @media only screen and (max-width: 767px) {
-        .mona-blockquote .icon i {
+        .jabu-blockquote .icon i {
           font-size: 30px; } }
-  .mona-blockquote .text h5 {
+  .jabu-blockquote .text h5 {
     font-size: 22px;
     font-style: italic;
     margin-bottom: 15px;
@@ -1684,30 +1684,30 @@ ul {
     line-height: 1.6;
     font-weight: 400; }
     @media only screen and (max-width: 767px) {
-      .mona-blockquote .text h5 {
+      .jabu-blockquote .text h5 {
         font-size: 16px; } }
-  .mona-blockquote .text h6 {
+  .jabu-blockquote .text h6 {
     color: #a6a6a6;
     font-size: 16px; }
 
-.mona-post-share {
+.jabu-post-share {
   position: relative;
   z-index: 1; }
   @media only screen and (max-width: 767px) {
-    .mona-post-share h6 {
+    .jabu-post-share h6 {
       font-size: 10px;
       margin-right: 10px !important; } }
-  .mona-post-share .social-info- a {
+  .jabu-post-share .social-info- a {
     display: inline-block;
     color: #232323;
     font-size: 16px;
     margin-right: 15px; }
-    .mona-post-share .social-info- a:last-child {
+    .jabu-post-share .social-info- a:last-child {
       margin-right: 0; }
-    .mona-post-share .social-info- a:focus, .mona-post-share .social-info- a:hover {
+    .jabu-post-share .social-info- a:focus, .jabu-post-share .social-info- a:hover {
       color: #ed489d; }
     @media only screen and (max-width: 767px) {
-      .mona-post-share .social-info- a {
+      .jabu-post-share .social-info- a {
         font-size: 12px;
         margin-right: 5px; } }
 
@@ -1741,7 +1741,7 @@ ul {
   margin-bottom: 20px; }
 
 /* :: 15.0 CTA CSS */
-.mona-cta-area {
+.jabu-cta-area {
   position: relative;
   z-index: 1;
   background-color: #ed489d; }
@@ -2080,18 +2080,18 @@ ul {
         color: #ed489d; }
 
 /* :: 19.0 Contact Area */
-.mona-contact-area {
+.jabu-contact-area {
   position: relative;
   z-index: 1; }
-  .mona-contact-area .google-maps {
+  .jabu-contact-area .google-maps {
     position: relative;
     z-index: 1;
     width: 100%;
     height: 650px; }
     @media only screen and (max-width: 767px) {
-      .mona-contact-area .google-maps {
+      .jabu-contact-area .google-maps {
         height: 280px; } }
-    .mona-contact-area .google-maps iframe {
+    .jabu-contact-area .google-maps iframe {
       width: 100%;
       height: 100%;
       border: none; }
@@ -2119,44 +2119,44 @@ ul {
 .casting-form-thumbnail img {
   width: 100%; }
 
-.mona-contact-form {
+.jabu-contact-form {
   position: relative;
   z-index: 1; }
-  .mona-contact-form .contact-heading {
+  .jabu-contact-form .contact-heading {
     margin-bottom: 20px; }
-    .mona-contact-form .contact-heading h2 {
+    .jabu-contact-form .contact-heading h2 {
       display: block;
       margin-bottom: 15px;
       font-size: 48px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .mona-contact-form .contact-heading h2 {
+        .jabu-contact-form .contact-heading h2 {
           font-size: 30px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .mona-contact-form .contact-heading h2 {
+        .jabu-contact-form .contact-heading h2 {
           font-size: 36px; } }
       @media only screen and (max-width: 767px) {
-        .mona-contact-form .contact-heading h2 {
+        .jabu-contact-form .contact-heading h2 {
           font-size: 24px; } }
-    .mona-contact-form .contact-heading p {
+    .jabu-contact-form .contact-heading p {
       margin-bottom: 0;
       font-size: 16px; }
       @media only screen and (max-width: 767px) {
-        .mona-contact-form .contact-heading p {
+        .jabu-contact-form .contact-heading p {
           font-size: 14px; } }
-  .mona-contact-form label {
+  .jabu-contact-form label {
     font-size: 16px;
     color: #a6a6a6;
     display: block;
     margin-bottom: 15px; }
-  .mona-contact-form .form-control {
+  .jabu-contact-form .form-control {
     width: 100%;
     height: 50px;
     padding: 0 20px;
     border-radius: 0; }
-    .mona-contact-form .form-control:focus {
+    .jabu-contact-form .form-control:focus {
       box-shadow: none;
       border-color: #ed489d; }
-  .mona-contact-form textarea.form-control {
+  .jabu-contact-form textarea.form-control {
     height: 110px;
     padding: 20px; }
 
