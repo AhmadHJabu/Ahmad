@@ -522,11 +522,11 @@ ul {
     background-color: #ffffff; } }
 @media only screen and (max-width: 767px) {
   .breakpoint-on .classy-navbar .classy-menu {
-    background-color: rgb(143, 143, 143);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.2); }
 
   .breakpoint-on .classynav > ul > li > a {
-    background-color: rgb(143, 143, 143); }
+    background-color: rgb(255, 255, 255); }
 
   .classycloseIcon .cross-wrap span {
     background-color: #ffffff; } }
