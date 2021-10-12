@@ -1,13 +1,13 @@
 (function ($) {
     'use strict';
 
-    var mona_window = $(window);
+    var jabu_window = $(window);
 
     // *******************************
     // :: 1.0 Preloader Active Code
     // *******************************
 
-    mona_window.on('load', function () {
+    jabu_window.on('load', function () {
         $('#preloader').fadeOut('1000', function () {
             $(this).remove();
         });
@@ -18,7 +18,7 @@
     // *******************************
 
     if ($.fn.classyNav) {
-        $('#monaNav').classyNav();
+        $('#jabuNav').classyNav();
     }
 
     // ***********************************
@@ -79,7 +79,7 @@
     // :: 5.0 Model Carousel Active Code
     // ***********************************
     if ($.fn.owlCarousel) {
-        var sliderPost = $('.mona-all-model-slide, .mona-models-slide, .mona-actor-slide, .mona-singer-slide');
+        var sliderPost = $('.jabu-all-model-slide, .jabu-models-slide, .jabu-actor-slide, .jabu-singer-slide');
         sliderPost.owlCarousel({
             items: 5,
             margin: 10,
@@ -113,9 +113,9 @@
     // :: 6.0 ImagesLoaded Active Code
     // ***********************************
     if ($.fn.imagesLoaded) {
-        $('.mona-portfolio').imagesLoaded(function () {
+        $('.jabu-portfolio').imagesLoaded(function () {
             // init Isotope
-            var $grid = $('.mona-portfolio').isotope({
+            var $grid = $('.jabu-portfolio').isotope({
                 itemSelector: '.single_gallery_item',
                 percentPosition: true,
                 masonry: {
@@ -175,7 +175,7 @@
     // ***********************************
     // :: 10.0 WOW Active Code
     // ***********************************
-    if (mona_window.width() > 767) {
+    if (jabu_window.width() > 767) {
         new WOW().init();
     }
 
@@ -192,7 +192,7 @@
     // :: 12.0 Scrollup Active Code
     // ***********************************
     if ($.fn.scrollUp) {
-        mona_window.scrollUp({
+        jabu_window.scrollUp({
             scrollSpeed: 2000,
             scrollText: '<i class="fa fa-angle-up"</i>'
         });
@@ -201,8 +201,8 @@
     // ***********************************
     // :: 13.0 Sticky Active Code
     // ***********************************
-    mona_window.on('scroll', function () {
-        if (mona_window.scrollTop() > 0) {
+    jabu_window.on('scroll', function () {
+        if (jabu_window.scrollTop() > 0) {
             $('.main-header-area').addClass('sticky');
         } else {
             $('.main-header-area').removeClass('sticky');

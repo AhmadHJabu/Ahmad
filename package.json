@@ -1,7 +1,7 @@
 {
-  "name": "mona-model-agency-html5-template",
+  "name": "jabu-model-agency-html5-template",
   "version": "1.0.0",
-  "description": "Mona Model Agency HTML5 Template",
+  "description": "jabu Model Agency HTML5 Template",
   "main": "index.js",
   "scripts": {
     "start": "gulp"

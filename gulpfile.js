@@ -43,7 +43,7 @@ gulp.task('scripts', function() {
     'node_modules/jquery.easing/jquery.easing.min.js',
     './src/js/default-assets/slick.min.js'
   ])
-    .pipe(concat('mona.bundle.js'))
+    .pipe(concat('jabu.bundle.js'))
     .pipe(gulp.dest('./src/js/'))
 });
 

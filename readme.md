@@ -1,5 +1,5 @@
 ------------------------------------------------------
-Template Name: Mona - Model Agency HTML Template
+Template Name: jabu - Model Agency HTML Template
 Template Author: Colorlib
 Template Author URI: https://colorlib.com
 Version: 1.0.0
@@ -11,7 +11,7 @@ To start 'Gulp' => npm run start
 --------------------------------
 
 File Structure:
-mona/
+jabu/
 └── src/
     ├── css/
     │   ├── default-assets/
@@ -35,7 +35,7 @@ mona/
     │   ├── jquery.easing.min.js
     │   ├── jquery.magnific-popup.min.js
     │   ├── jquery.min.js
-    │   ├── mona.bundle.js
+    │   ├── jabu.bundle.js
     │   ├── owl.carousel.min.js
     │   ├── popper.min.js
     │   ├── waypoints.min.js
