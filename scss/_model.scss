@@ -29,7 +29,7 @@
   }
 }
 
-.mona-tab-content {
+.jabu-tab-content {
   position: relative;
   z-index: 1;
   padding: 0 3%;
@@ -207,10 +207,10 @@
   }
 }
 
-.mona-actor-slide,
-.mona-all-model-slide,
-.mona-models-slide,
-.mona-singer-slide {
+.jabu-actor-slide,
+.jabu-all-model-slide,
+.jabu-models-slide,
+.jabu-singer-slide {
   position: relative;
   z-index: 1;
 
@@ -242,8 +242,8 @@
   }
 }
 
-.mona-model-area.model-page {
-  .mona-tab-content {
+.jabu-model-area.model-page {
+  .jabu-tab-content {
     .col-xl {
       @media #{$breakpoint-xl} {
         @include flex(0 0 20%);
