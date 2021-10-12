@@ -385,8 +385,7 @@ ul {
   text-align: center;
   text-transform: capitalize;
   color: #ffffff;
-  border-radius: 40px;
-  background-color: #ed489d;
+  background-color: #6148ed;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -397,12 +396,12 @@ ul {
     color: #ffffff;
     border-color: #000000; }
   .jabu-btn.btn-2 {
-    border-color: #ed489d;
-    color: #ed489d;
+    border-color: #6148ed;
+    color: #6148ed;
     background-color: #ffffff; }
     .jabu-btn.btn-2:focus, .jabu-btn.btn-2:hover {
       color: #ffffff;
-      background-color: #ed489d; }
+      background-color: #6148ed; }
 
 /* :: 7.0 Header CSS */
 .header-area {
