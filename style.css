@@ -458,7 +458,7 @@ ul {
       font-weight: 500;
       font-size: 18px;
       text-transform: capitalize;
-      color: #ffffff; }
+      color: #000; }
       .classy-nav-container .classy-navbar .classynav ul li a:focus, .classy-nav-container .classy-navbar .classynav ul li a:hover {
         color: #ffffff; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
