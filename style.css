@@ -853,7 +853,6 @@ ul {
   .project-thumbnail .line {
     width: 100px;
     height: 15px;
-    background-color: #6148ed;
     position: absolute;
     z-index: 10;
     top: -15px;
@@ -867,7 +866,6 @@ ul {
       content: '';
       height: 100px;
       width: 15px;
-      background-color: #6148ed;
       position: absolute;
       top: 0;
       right: 0;
@@ -875,7 +873,6 @@ ul {
   .project-thumbnail .line2 {
     width: 100px;
     height: 15px;
-    background-color: #6148ed;
     position: absolute;
     z-index: 10;
     bottom: -15px;
@@ -889,7 +886,6 @@ ul {
       content: '';
       height: 100px;
       width: 15px;
-      background-color: #6148ed;
       position: absolute;
       bottom: 0;
       left: 0;
