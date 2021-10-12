@@ -682,53 +682,8 @@ ul {
     -webkit-transition-duration: 250ms;
     -o-transition-duration: 250ms;
     transition-duration: 250ms; }
-  .single-project-area .hover-content {
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #ed489d;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    padding: 20px;
-    opacity: 0;
-    visibility: hidden; }
-    .single-project-area .hover-content .hover-text h4 {
-      color: #ffffff;
-      margin-bottom: 25px; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .single-project-area .hover-content .hover-text h4 {
-          font-size: 20px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .single-project-area .hover-content .hover-text h4 {
-          font-size: 16px; } }
-      @media only screen and (max-width: 767px) {
-        .single-project-area .hover-content .hover-text h4 {
-          font-size: 14px;
-          margin-bottom: 10px; } }
-    .single-project-area .hover-content .hover-text h6 {
-      color: #ffffff; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .single-project-area .hover-content .hover-text h6 {
-          font-size: 12px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .single-project-area .hover-content .hover-text h6 {
-          font-size: 12px; } }
-      @media only screen and (max-width: 767px) {
-        .single-project-area .hover-content .hover-text h6 {
-          font-size: 12px; } }
-      .single-project-area .hover-content .hover-text h6:last-child {
-        margin-bottom: 0; }
-  .single-project-area:focus img, .single-project-area:hover img {
-    -webkit-filter: blur(1px);
-    filter: blur(1px); }
-  .single-project-area:focus .hover-content, .single-project-area:hover .hover-content {
-    opacity: 0.9;
-    visibility: visible; }
-
+  
+    
 /* :: 10.0 Testimonial CSS */
 .clients-feedback-area {
   position: relative;
