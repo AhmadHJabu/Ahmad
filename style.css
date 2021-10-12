@@ -695,7 +695,7 @@ ul {
       display: block;
       font-size: 72px;
       margin-bottom: 20px;
-      color: #6148ed;
+      color: #000;
       -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
       transform: rotate(180deg); }
@@ -728,8 +728,8 @@ ul {
       margin: 5.5px;
       outline: none; }
     .clients-feedback-area .slick-dots li.slick-active button {
-      background-color: #6148ed;
-      border-color: #6148ed; }
+      background-color: #000;
+      border-color: #000; }
   .clients-feedback-area .slick-slide.client-thumbnail {
     display: -webkit-box;
     display: -ms-flexbox;
