@@ -741,7 +741,7 @@ ul {
       display: block;
       font-size: 72px;
       margin-bottom: 20px;
-      color: #ed489d;
+      color: #6148ed;
       -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
       transform: rotate(180deg); }
@@ -750,13 +750,6 @@ ul {
       @media only screen and (max-width: 767px) {
         .clients-feedback-area .client-feedback-text .client-description h4 {
           font-size: 20px; } }
-    .clients-feedback-area .client-feedback-text .ratings {
-      position: relative;
-      z-index: 1;
-      margin-bottom: 10px; }
-      .clients-feedback-area .client-feedback-text .ratings i {
-        color: #e99d19;
-        font-size: 14px; }
     .clients-feedback-area .client-feedback-text .client-name h5 {
       font-size: 22px;
       margin-bottom: 0; }
