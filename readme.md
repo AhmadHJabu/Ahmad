@@ -1,5 +1,5 @@
 ------------------------------------------------------
-Template Name: jabu - Portifolio website
+Website Name: Ahmad Jabu - Portifolio website
 
 -----------------------------------------------------
 
