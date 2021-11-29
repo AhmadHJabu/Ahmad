@@ -1,9 +1,6 @@
 ------------------------------------------------------
 Template Name: jabu - Model Agency HTML Template
-Template Author: Colorlib
-Template Author URI: https://colorlib.com
-Version: 1.0.0
-Last Update: Dec 21, 2018
+
 -----------------------------------------------------
 
 --------------------------------
@@ -45,31 +42,23 @@ jabu/
     │   ├── utilities/
     │   ├── about.scss
     │   ├── backtotop.scss
-    │   ├── blog.scss
     │   ├── breadcrumb.scss
     │   ├── buttons.scss
     │   ├── contact.scss
     │   ├── cta.scss
     │   ├── footer.scss
-    │   ├── gallery.scss
     │   ├── header.scss
     │   ├── heading.scss
     │   ├── hero.scss
-    │   ├── model.scss
     │   ├── preloader.scss
     │   ├── reboot.scss
     │   ├── spacing.scss
-    │   ├── team.scss
     │   ├── testimonial.scss
     │   ├── widget.scss
     │   ├── style.scss
     ├── about.html
-    ├── blog.html
-    ├── casting.html
     ├── contact.html
     ├── index.html
-    ├── models.html
     ├── projects.html
-    ├── single-blog.html
     ├── style.css
     ├── style.css.map
