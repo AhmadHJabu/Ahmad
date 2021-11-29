@@ -1,5 +1,5 @@
 ------------------------------------------------------
-Template Name: jabu - Model Agency HTML Template
+Template Name: jabu - Portifolio website
 
 -----------------------------------------------------
 
