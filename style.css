@@ -588,7 +588,7 @@ ul {
       height: 400px; } }
   .single-welcome-slide .main-bg-img {
     position: absolute;
-    width: 50%;
+    width: 40%;
     height: calc(100% - 100px);
     bottom: 0;
     right: 10%;
