@@ -635,7 +635,8 @@ ul {
     letter-spacing: 2px; }
     @media only screen and (max-width: 767px) {
       .welcome-text h5 {
-        margin-bottom: 15px; } }
+        margin-bottom: 15px;
+        margin-left: -10px } }
   .welcome-text a {
     padding: 0;
     display: inline-block;
@@ -646,6 +647,10 @@ ul {
     font-weight: 600; }
     .welcome-text a:focus, .welcome-text a:hover {
       color: #232323; }
+
+      @media only screen and (max-width: 767px) {
+        .welcome-text a {
+          margin-left: -10px } }
 
 /* :: 9.0 Gallery CSS */
 .jabu-projects-menu {
