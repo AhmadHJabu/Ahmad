@@ -120,14 +120,6 @@
         });
     }
 
-    // ***********************************
-    // :: 8.0 Magnific Popup Active Code
-    // ***********************************
-    if ($.fn.magnificPopup) {
-        $('.video-play-btn').magnificPopup({
-            type: 'iframe'
-        });
-    }
 
 
     // ***********************************
