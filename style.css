@@ -533,11 +533,11 @@ ul {
 
 
 /* :: 8.0 Hero CSS */
-.welcome-slides {
+.single-hero {
   position: relative;
   z-index: 1;
   overflow: hidden; }
-  .welcome-slides .owl-next {
+  . .owl-next {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -552,41 +552,41 @@ ul {
     color: #232323;
     font-size: 30px;
     z-index: 10; }
-    .welcome-slides .owl-next:focus, .welcome-slides .owl-next:hover {
+    .single-hero .owl-next:focus, .single-hero .owl-next:hover {
       background-color: #ed489d;
       color: #ffffff; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .welcome-slides .owl-next {
+      .single-hero .owl-next {
         width: 70px;
         height: 70px;
         line-height: 70px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .welcome-slides .owl-next {
+      .single-hero .owl-next {
         width: 70px;
         height: 70px;
         line-height: 70px; } }
     @media only screen and (max-width: 767px) {
-      .welcome-slides .owl-next {
+      .single-hero .owl-next {
         width: 50px;
         height: 50px;
         line-height: 50px; } }
 
-.single-welcome-slide {
+.single-hero-header {
   position: relative;
   z-index: 2;
   width: 100%;
   height: 700px;
   background-color: #ffffff; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .single-welcome-slide {
+    .single-hero-header {
       height: 680px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .single-welcome-slide {
+    .single-hero-header {
       height: 600px; } }
   @media only screen and (max-width: 767px) {
-    .single-welcome-slide {
+    .single-hero-header {
       height: 488px; } }
-  .single-welcome-slide .main-bg-img {
+  .single-hero-header .main-bg-img {
     position: absolute;
     width: 40%;
     height: calc(100% - 100px);
@@ -594,10 +594,10 @@ ul {
     right: 10%;
     z-index: 1; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .single-welcome-slide .main-bg-img {
+      .single-hero-header .main-bg-img {
         height: calc(100% - 70px);  } }
     @media only screen and (max-width: 767px) {
-      .single-welcome-slide .main-bg-img {
+      .single-hero-header .main-bg-img {
         height: calc(100% - 100px); 
         width: 50%;
         right: 2%; } }

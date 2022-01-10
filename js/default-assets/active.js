@@ -26,7 +26,7 @@
     // ***********************************
 
     if ($.fn.owlCarousel) {
-        var welcomeSlider = $('.welcome-slides');
+        var welcomeSlider = $('.single-hero');
         welcomeSlider.owlCarousel({
             items: 1,
             loop: true,
