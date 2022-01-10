@@ -29,14 +29,12 @@
         var welcomeSlider = $('.single-hero');
         welcomeSlider.owlCarousel({
             items: 1,
-            loop: true,
-            autoplay: true,
+            loop: false,
+            autoplay: false,
             smartSpeed: 1500,
             animateIn: 'fadeIn',
             animateOut: 'fadeOut',
             autoplayTimeout: 7000,
-            nav: true,
-            navText: ['', '<i class="fa fa-angle-left" aria-hidden="true"></i>']
         })
         welcomeSlider.on('translate.owl.carousel', function () {
             var layer = $("[data-animation]");
@@ -75,39 +73,6 @@
         });
     }
 
-    // ***********************************
-    // :: 5.0 Model Carousel Active Code
-    // ***********************************
-    if ($.fn.owlCarousel) {
-        var sliderPost = $('.jabu-all-model-slide, .jabu-models-slide, .jabu-actor-slide, .jabu-singer-slide');
-        sliderPost.owlCarousel({
-            items: 5,
-            margin: 10,
-            loop: true,
-            autoplay: true,
-            autoplayTimeout: 10000,
-            smartSpeed: 1500,
-            nav: true,
-            navText: ['<i class="arrow_left"></i>', '<i class="arrow_right"></i>'],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                480: {
-                    items: 2
-                },
-                768: {
-                    items: 3
-                },
-                992: {
-                    items: 4
-                },
-                1200: {
-                    items: 5
-                }
-            }
-        });
-    }
 
     // ***********************************
     // :: 6.0 ImagesLoaded Active Code
