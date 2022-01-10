@@ -32,8 +32,6 @@
             loop: false,
             autoplay: false,
             smartSpeed: 1500,
-            animateIn: 'fadeIn',
-            animateOut: 'fadeOut',
             autoplayTimeout: 7000,
         })
         welcomeSlider.on('translate.owl.carousel', function () {
