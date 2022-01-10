@@ -58,18 +58,6 @@
         });
     }
 
-    // ***********************************
-    // :: 4.0 Post Carousel Active Code
-    // ***********************************
-    if ($.fn.owlCarousel) {
-        var slidePost = $('.slide-post');
-        slidePost.owlCarousel({
-            items: 1,
-            loop: true,
-            autoplay: true,
-            smartSpeed: 1500
-        });
-    }
 
 
     // ***********************************
