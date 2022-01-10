@@ -32,13 +32,6 @@
             loop: false,
             autoplay: false,
         })
-        welcomeSlider.on('translate.owl.carousel', function () {
-            var layer = $("[data-animation]");
-            layer.each(function () {
-                var anim_name = $(this).data('animation');
-                $(this).removeClass('animated ' + anim_name).css('opacity', '0');
-            });
-        });
       
         welcomeSlider.on('translated.owl.carousel', function () {
             var layer = welcomeSlider.find('.owl-item.active').find("[data-animation]");
