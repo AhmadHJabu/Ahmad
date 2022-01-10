@@ -1035,8 +1035,7 @@ ul {
 
 .single-contact-card {
   position: relative;
-  z-index: 1;
-  text-align: center; }
+  z-index: 1; }
   .single-contact-card h2 {
     font-size: 36px;
     margin-bottom: 20px; }
