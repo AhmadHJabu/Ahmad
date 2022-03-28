@@ -1139,26 +1139,6 @@ ul {
       color: #fff;
     }
     
-    /* line 41, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-    .stat-area .single-cat .cat-cap h5 > a {
-      font-size: 25px;
-      font-weight: 700;
-      margin-bottom: 21px;
-      display: block;
-      -webkit-transition: 0.2s;
-      -moz-transition: 0.2s;
-      -o-transition: 0.2s;
-      transition: 0.2s;
-      font-family: "Muli", sans-serif;
-    }
-    
-    @media only screen and (min-width: 576px) and (max-width: 767px) {
-      /* line 41, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-      .stat-area .single-cat .cat-cap h5 > a {
-        font-size: 26px;
-      }
-    }
-    
     @media (max-width: 575px) {
       /* line 41, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
       .stat-area .single-cat .cat-cap h5 > a {
@@ -1166,16 +1146,6 @@ ul {
       }
     }
     
-    /* line 56, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-    .stat-area .single-cat .cat-cap p {
-      margin-bottom: 36px;
-      color: #57667e;
-      font-size: 16px;
-      -webkit-transition: 0.2s;
-      -moz-transition: 0.2s;
-      -o-transition: 0.2s;
-      transition: 0.2s;
-    }
     
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       /* line 56, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
@@ -1200,12 +1170,6 @@ ul {
       height: 100%;
     }
     
-    /* line 81, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-    .stat-area .single-cat.active .cat-icon span {
-      color: #09cc7f;
-      background: #fff;
-    }
-    
     /* line 87, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
     .stat-area .single-cat.active .cat-cap h5 {
       color: #fff;
@@ -1226,6 +1190,6 @@ ul {
       height: 100%;
     }
     
-    .service_title{
+    .service{
       font-size: 48px;
     }
