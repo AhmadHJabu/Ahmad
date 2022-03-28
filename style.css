@@ -1124,20 +1124,7 @@ ul {
       }
     }
     
-    /* line 13, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-    .stat-area .single-cat::before {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 0;
-      background: #BB0066;
-      transition: .6s;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-      border-radius: 6px;
-    }
-    
+ 
     /* line 26, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
     .stat-area .single-cat .cat-icon span {
       margin-bottom: 50px;
@@ -1239,27 +1226,6 @@ ul {
       height: 100%;
     }
     
-    /* line 103, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-    .stat-area .single-cat:hover .cat-icon span {
-      color: #09cc7f;
-      background: #fff;
-    }
-    
-    /* line 109, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-    .stat-area .single-cat:hover .cat-cap h5 {
-      color: #fff;
-    }
-    
-    /* line 112, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-    .stat-area .single-cat:hover .cat-cap p {
-      color: #fff;
-    }
-    
-    /* line 115, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_services_section.scss */
-    .stat-area .single-cat:hover .cat-cap a {
-      color: #fff;
-    }
-
     .service_title{
       font-size: 48px;
     }
